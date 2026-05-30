@@ -21,7 +21,7 @@ osint & recon framework на rust
 
 ## установка
 
-git clone https://github.com/anonyrecidivism/rustcohle
+git clone https://github.com/anonyrecidivism-ux/rustcohle
 cd rustcohle
 cargo build --release
 
