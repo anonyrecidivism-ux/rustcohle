@@ -14,6 +14,7 @@ osint & recon framework на rust
 
 [+] dns записи (a, aaaa, mx, ns, txt, cname, soa
 )
+
 [+] whois через rdap
 
 [+] geoip + asn по ip или домену
@@ -24,11 +25,9 @@ osint & recon framework на rust
 
 [+] сканер портов (common / web / full)
 
-[+] exif из фото, координаты если есть
+[+] вытаскивание exif данных из фото
 
 [+] анализ сайта: заголовки, технологии, security headers
-
-[+] определение страны по номеру телефона
 
 ## установка
 
