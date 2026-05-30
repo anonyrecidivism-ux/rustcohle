@@ -4,7 +4,7 @@ osint & recon framework на rust
 
 ![demo](demo.png)
 
-## возможности
+# возможности
 
 [+] поиск аккаунтов по нику на 28 платформах
 
@@ -29,13 +29,13 @@ osint & recon framework на rust
 
 [+] анализ сайта: заголовки, технологии, security headers
 
-## установка
+# установка
 
 git clone https://github.com/anonyrecidivism-ux/rustcohle
 cd rustcohle
 cargo build --release
 
-## использование
+# использование
 
 ./rustcohle username <ник>
 ./rustcohle email <почта>
