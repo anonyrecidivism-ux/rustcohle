@@ -2,6 +2,8 @@
 
 osint & recon framework на rust
 
+![demo](demo.png)
+
 ## возможности
 
 [+] поиск аккаунтов по нику на 28 платформах
