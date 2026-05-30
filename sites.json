@@ -1,0 +1,81 @@
+{
+  "GitHub": { "url": "https://github.com/{}", "errorType": "status_code" },
+  "Twitter": { "url": "https://twitter.com/{}", "errorType": "status_code" },
+  "Reddit": { "url": "https://www.reddit.com/user/{}", "errorType": "status_code" },
+  "GitLab": { "url": "https://gitlab.com/{}", "errorType": "status_code" },
+  "Steam": { "url": "https://steamcommunity.com/id/{}", "errorType": "status_code" },
+  "Behance": { "url": "https://www.behance.net/{}", "errorType": "status_code" },
+  "SoundCloud": { "url": "https://soundcloud.com/{}", "errorType": "status_code" },
+  "DeviantArt": { "url": "https://www.deviantart.com/{}", "errorType": "status_code" },
+  "Flickr": { "url": "https://www.flickr.com/people/{}", "errorType": "status_code" },
+  "Codecademy": { "url": "https://www.codecademy.com/profiles/{}", "errorType": "status_code" },
+  "Last.fm": { "url": "https://www.last.fm/user/{}", "errorType": "status_code" },
+  "Replit": { "url": "https://replit.com/@{}", "errorType": "status_code" },
+  "Roblox": { "url": "https://www.roblox.com/user.aspx?username={}", "errorType": "status_code" },
+  "VK": { "url": "https://vk.com/{}", "errorType": "status_code" },
+  "Instagram": {
+    "url": "https://www.instagram.com/{}/",
+    "errorType": "title",
+    "errorMsg": "Page Not Found"
+  },
+  "YouTube": {
+    "url": "https://www.youtube.com/@{}",
+    "errorType": "title",
+    "errorMsg": "404 Not Found"
+  },
+  "Pinterest": {
+    "url": "https://www.pinterest.com/{}/",
+    "errorType": "title",
+    "errorMsg": "Pinterest"
+  },
+  "Twitch": {
+    "url": "https://www.twitch.tv/{}",
+    "errorType": "title",
+    "errorMsg": "Twitch"
+  },
+  "TikTok": {
+    "url": "https://www.tiktok.com/@{}",
+    "errorType": "title",
+    "errorMsg": "TikTok"
+  },
+  "Vimeo": {
+    "url": "https://vimeo.com/{}",
+    "errorType": "title",
+    "errorMsg": "Page not found"
+  },
+  "Spotify": {
+    "url": "https://open.spotify.com/user/{}",
+    "errorType": "title",
+    "errorMsg": "Spotify"
+  },
+  "Medium": {
+    "url": "https://medium.com/@{}",
+    "errorType": "title",
+    "errorMsg": "Medium"
+  },
+  "Dribbble": {
+    "url": "https://dribbble.com/{}",
+    "errorType": "title",
+    "errorMsg": "Page not found"
+  },
+  "HackerRank": {
+    "url": "https://hackerrank.com/{}",
+    "errorType": "status_code"
+  },
+  "LeetCode": {
+    "url": "https://leetcode.com/u/{}/",
+    "errorType": "status_code"
+  },
+  "Pastebin": {
+    "url": "https://pastebin.com/u/{}",
+    "errorType": "status_code"
+  },
+  "Wikipedia": {
+    "url": "https://en.wikipedia.org/wiki/User:{}",
+    "errorType": "status_code"
+  },
+  "Kaggle": {
+    "url": "https://www.kaggle.com/{}",
+    "errorType": "status_code"
+  }
+}

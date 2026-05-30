@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Gravatar / WordPress",
+    "method": "GET",
+    "url": "https://en.gravatar.com/{md5_email}.json",
+    "check_type": "status"
+  },
+  {
+    "name": "Spotify",
+    "method": "GET",
+    "url": "https://spclient.wg.spotify.com/signup/public/v1/account?email={email}&key=4c7a36d5-005a-4648-9344-3d0334b3b1c7",
+    "check_type": "json_key",
+    "json_key": "status",
+    "expected_value": 1
+  },
+  {
+    "name": "Instagram",
+    "method": "POST",
+    "url": "https://www.instagram.com/api/v1/users/check_email/",
+    "body": "email={email}&username=instagram",
+    "headers": {
+      "user-agent": "Instagram 150.0.0.0.000 Android",
+      "x-csrftoken": "missing"
+    },
+    "check_type": "json_key",
+    "json_key": "email_is_taken",
+    "expected_value": true
+  },
+  {
+    "name": "Twitter / X",
+    "method": "POST",
+    "url": "https://api.twitter.com/i/users/email_available.json?email={email}",
+    "headers": {
+        "authorization": "Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA",
+        "x-twitter-client-language": "en"
+    },
+    "check_type": "json_key",
+    "json_key": "valid",
+    "expected_value": false
+  }
+]
