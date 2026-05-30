@@ -7,16 +7,27 @@ osint & recon framework на rust
 ## возможности
 
 [+] поиск аккаунтов по нику на 28 платформах
+
 [+] проверка email на регистрацию в сервисах
+
 [+] поиск email в базах утечек (hibp)
-[+] dns записи (a, aaaa, mx, ns, txt, cname, soa)
+
+[+] dns записи (a, aaaa, mx, ns, txt, cname, soa
+)
 [+] whois через rdap
+
 [+] geoip + asn по ip или домену
+
 [+] определение реального ip за cloudflare через spf и crt.sh
+
 [+] архивные снимки сайта (wayback machine)
+
 [+] сканер портов (common / web / full)
+
 [+] exif из фото, координаты если есть
+
 [+] анализ сайта: заголовки, технологии, security headers
+
 [+] определение страны по номеру телефона
 
 ## установка
