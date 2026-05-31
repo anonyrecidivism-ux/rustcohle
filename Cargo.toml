@@ -1,0 +1,34 @@
+[package]
+name = "rustcohle"
+version = "3.1.0"
+edition = "2021"
+authors = ["anonyrecidivism-ux"]
+description = "Rust Cohle — OSINT & Recon Framework. Fast, terminal-native, no bullshit."
+license = "MIT"
+repository = "https://github.com/anonyrecidivism-ux/rustcohle"
+keywords = ["osint", "recon", "security", "cli", "hacking"]
+categories = ["command-line-utilities"]
+
+[[bin]]
+name = "rustcohle"
+path = "src/main.rs"
+
+[dependencies]
+tokio        = { version = "1",    features = ["full"] }
+futures      = "0.3"
+reqwest      = { version = "0.12", features = ["json", "socks"] }
+scraper      = "0.19"
+serde        = { version = "1.0",  features = ["derive"] }
+serde_json   = "1.0"
+clap         = { version = "4.4",  features = ["derive"] }
+colored      = "2.1"
+indicatif    = "0.17"
+kamadak-exif = "0.5"
+md5          = "0.7"
+urlencoding  = "2.1"
+
+[profile.release]
+opt-level     = 3
+lto           = true
+codegen-units = 1
+strip         = true
