@@ -101,6 +101,10 @@ route everything through tor:
 rustcohle --proxy socks5://127.0.0.1:9050 username torvalds
 ```
 
+> **running from source without installing?** while developing, use
+> `cargo run -- <command>` — the `--` separates cargo's flags from the tool's.
+> e.g. `cargo run -- username torvalds` or `cargo run -- ip 8.8.8.8`.
+
 ---
 
 ## modules
